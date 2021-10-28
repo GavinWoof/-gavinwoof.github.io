@@ -1,0 +1,28 @@
+@import 'variables';
+
+.bg-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+    background: linear-gradient(to bottom,
+        $color-dark 50%, 
+        $color-primary 50%
+    );
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 512px;
+    }
+
+    color: #FFF;
+}
+
+
